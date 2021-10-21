@@ -1,0 +1,23 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js",
+    "test:report": "allure generete-results && "
+  },
+  "author": "Cristian Arredondo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@wdio/cli": "^7.14.1",
+    "@wdio/cucumber-framework": "^7.14.1",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1",
+    "chromedriver": "^94.0.0",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
